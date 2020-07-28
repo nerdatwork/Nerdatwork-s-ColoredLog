@@ -7,7 +7,7 @@ function Get-LogColor {
     process {
         if ($LogEntry.Contains("downloaded")) {Return "Green"}
         elseif ($LogEntry.Contains("uploaded")) {Return "Yellow"}
-        elseif ($LogEntry.Contains("failed") -or $LogEntry.Contains("error")) {Return "Red"}
+        elseif ($LogEntry.Contains("failed") -or $LogEntry.Contains("error") -or $LogEntry.Contains("ERROR")) {Return "Red"}
         elseif ($LogEntry.Contains("deleted")) {Return "Magenta"}
         elseif ($LogEntry.Contains("canceled")) {Return "Cyan"}
         else {Return "White"}
