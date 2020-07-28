@@ -6,6 +6,15 @@ Powershell script to show Storj's storagenode log with colors
 
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7
 
+Color | Text
+------------ | -------------
+Green | downloaded
+Yellow | uploaded
+Magenta | deleted
+Cyan | canceled
+Red | error
+
+
 _This is how it will look_
 
 ![outout](https://github.com/nerdatwork/Nerdatwork-s-ColoredLog/blob/master/colored%20storj%20output.png)
