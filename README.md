@@ -17,11 +17,11 @@ https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powersh
 
 Color | Text
 ------------ | -------------
-Green | downloaded
-Yellow | uploaded
-Magenta | deleted
-Cyan | canceled
-Red | error
+![#21E32A](https://via.placeholder.com/15/21E32A/000000?text=+) Green | downloaded
+![#F7EC44](https://via.placeholder.com/15/F7EC44/000000?text=+) Yellow | uploaded
+![#CD41F9](https://via.placeholder.com/15/CD41F9/000000?text=+) Magenta | deleted
+![#3FDBF7](https://via.placeholder.com/15/3FDBF7/000000?text=+) Cyan | canceled
+![#EF3D55](https://via.placeholder.com/15/EF3D55/000000?text=+) Red | error
 
 
 _This is how it will look_
