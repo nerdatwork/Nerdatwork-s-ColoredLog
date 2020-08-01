@@ -1,6 +1,6 @@
 # NerdAtWork's ColoredLog
 
-Powershell script to show Storj's storagenode log with colors
+Powershell script to show Storj's storagenode log with colors.
 <hr>
 
 **How to install powershell on Linux?**
@@ -23,7 +23,7 @@ pwsh
 
 ```
 
-Reference: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7
+*Reference:* https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7
 
 <hr>
 
@@ -50,7 +50,7 @@ sudo ln -s /usr/local/microsoft/powershell/7.0.3/pwsh /usr/local/bin/pwsh
 
 >sudo installer -pkg powershell-lts-7.0.3-osx-x64.pkg -target /
 
-Reference: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7
+*Reference:* https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7
 
 <hr>
 
