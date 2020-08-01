@@ -10,6 +10,7 @@ function Get-LogColor {
         elseif ($LogEntry.Contains("failed") -or $LogEntry.Contains("error") -or $LogEntry.Contains("ERROR")) {Return "Red"}
         elseif ($LogEntry.Contains("deleted")) {Return "Magenta"}
         elseif ($LogEntry.Contains("canceled")) {Return "Cyan"}
+        elseif ($LogEntry.Contains("gracefulexit")) {Return "Gray"}
         else {Return "White"}
     }
 }
