@@ -60,8 +60,8 @@ Color | Text
 ![#F7EC44](https://via.placeholder.com/15/F7EC44/000000?text=+) Yellow | uploaded
 ![#CD41F9](https://via.placeholder.com/15/CD41F9/000000?text=+) Magenta | deleted
 ![#3FDBF7](https://via.placeholder.com/15/3FDBF7/000000?text=+) Cyan | canceled
+![#C3BDBE](https://via.placeholder.com/15/C3BDBE/000000?text=+) DarkGray | gracefulexit
 ![#EF3D55](https://via.placeholder.com/15/EF3D55/000000?text=+) Red | error
-
 
 _This is how it will look_
 
