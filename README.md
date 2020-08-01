@@ -48,7 +48,9 @@ sudo ln -s /usr/local/microsoft/powershell/7.0.3/pwsh /usr/local/bin/pwsh
 
 **Installation via Direct download**
 
->sudo installer -pkg powershell-lts-7.0.3-osx-x64.pkg -target /
+```
+sudo installer -pkg powershell-lts-7.0.3-osx-x64.pkg -target /
+```
 
 *Reference:* https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7
 
