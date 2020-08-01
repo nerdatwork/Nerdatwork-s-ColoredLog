@@ -5,13 +5,52 @@ Powershell script to show Storj's storagenode log with colors
 
 **How to install powershell on Linux?**
 
-https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7
+```
+# Download the Microsoft repository GPG keys
+wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
+
+# Register the Microsoft repository GPG keys
+sudo dpkg -i packages-microsoft-prod.deb
+
+# Update the list of products
+sudo apt-get update
+
+# Install PowerShell
+sudo apt-get install -y powershell
+
+# Start PowerShell
+pwsh
+
+```
+
+Reference: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7
 
 <hr>
 
 **How to install powershell on MacOS?**
+```
+# Download the powershell '.tar.gz' archive
+curl -L -o /tmp/powershell.tar.gz https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/powershell-7.0.3-osx-x64.tar.gz
 
-https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7
+# Create the target folder where powershell will be placed
+sudo mkdir -p /usr/local/microsoft/powershell/7.0.3
+
+# Expand powershell to the target folder
+sudo tar zxf /tmp/powershell.tar.gz -C /usr/local/microsoft/powershell/7.0.3
+
+# Set execute permissions
+sudo chmod +x /usr/local/microsoft/powershell/7.0.3/pwsh
+
+# Create the symbolic link that points to pwsh
+sudo ln -s /usr/local/microsoft/powershell/7.0.3/pwsh /usr/local/bin/pwsh
+
+```
+
+**Installation via Direct download**
+
+>sudo installer -pkg powershell-lts-7.0.3-osx-x64.pkg -target /
+
+Reference: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7
 
 <hr>
 
