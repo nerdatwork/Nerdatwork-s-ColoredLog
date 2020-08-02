@@ -68,3 +68,10 @@ Color | Text
 _This is how it will look_
 
 ![outout](https://github.com/nerdatwork/Nerdatwork-s-ColoredLog/blob/master/colored%20storj%20output.png)
+
+<hr>
+ 
+# Affiliate Links
+
+**Brave Browser**
+https://brave.com/ner753
