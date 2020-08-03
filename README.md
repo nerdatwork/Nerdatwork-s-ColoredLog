@@ -75,3 +75,6 @@ _This is how it will look_
 
 **Brave Browser**
 https://brave.com/ner753
+
+
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnerdatwork%2FNerdatwork-s-ColoredLog" align=right /></a>
